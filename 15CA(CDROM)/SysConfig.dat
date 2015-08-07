@@ -1,0 +1,95 @@
+[Install]
+DefDir=Mobile Internet
+AppTitle=Mobile Internet
+AppName=Mobile Internet.exe
+Publisher=Huawei Technologies Co.,Ltd
+URLInfoAbout=http://www.huawei.com
+HelpLink=http://mobile.huawei.com
+RealName=Mobile Internet.app
+
+[DRIVER]
+WLAN=0
+
+[FinishPage]
+run=\eap\wifiman_inistall.exe
+runtext=
+
+[execwait]
+uninstall=\eap\wifiman_unistall.exe
+
+[shortcut]
+dest1=Mobile Internet.exe
+name1=Mobile Internet
+dest2=uninst.exe
+name2=Uninstall
+usermanual=User Manual
+usermanualfile=
+
+[regedit]
+TCPWindowSize=129940
+reboot=false
+
+[customize]
+operator=C174
+simtype=SIM/USIM
+uimtype=UIM
+FindDevice=false
+LaunchDashboard=false
+runasadmin=false
+IPv6Install=true
+driverFilterList=-nosms
+
+[language]
+name1=Ukrainian
+name2=English
+name3=Russian
+
+[System]
+FileVersion=1
+VRVersion=23
+VVersion=200
+RVersion=003
+BuildVersion=015
+DebugVersion=05
+SPVersion=01
+CustomizeVersion=174
+
+[SPLASH]
+SHOW_PROMPT=NO
+PROMPT_MESSAGE=PromptInfo.exe
+LANGPATH=PromptInfo
+LANGFILE=English.dat
+
+[PNPCTRL]
+EXEC_REWIND=YES
+DEFAULT_TIMEOUT=10
+WIN2000_TIMEOUT=10
+
+[EHIDS_PRODUCT_VERSION]
+COMMENT=
+RUN_INSTALL_APP=YES
+RUN_CLIENT_APP=YES
+L_REG_PATH=SOFTWARE\Huawei technologies\Mobile Internet
+APP_FILE_NAME=Mobile Internet.exe
+APP_INSTALL_PATH=Mobile Internet
+VALUE=23.015.05.01.174
+
+[SD_INFORMATION]
+SD_DETECT=YES
+ANTI_VIRUS_REG_PATH=SOFTWARE\Symantec\SPBBC
+ANTI_VIRUS_FILE_PATH=\Norton\NIS081550.exe
+REMIND_SENTENCE=Remind you to install antivirus software?
+
+[SD_THIRDPARTY_SETUP]
+SD_THIRD_SETUP=NO
+SD_THIRD_FILE_PATH=PUBLIC
+SD_THIRD_FILE_NAME=HuaweiProtectorSuite.dmg
+SD_RUN_THIRD_FILE_ONCE=YES
+
+[VIRCDROM_INFORMATION]
+ANTI_VIRUS_TREND_EXE=\AntiVirus\TmSync.exe
+
+[APP_PATH]
+VALUE=/Applications/Mobile Internet.app
+RUN_PROCESS_DLG=YES
+
